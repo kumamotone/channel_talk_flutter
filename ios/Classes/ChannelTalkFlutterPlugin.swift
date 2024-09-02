@@ -188,7 +188,7 @@ public class ChannelTalkFlutterPlugin: NSObject, FlutterPlugin {
     let workflowId = argMaps["workflowId"] as? String
     let message = argMaps["message"] as? String
 
-    ChannelIO.openChat(with: workflowId)
+    ChannelIO.openChat(with: workflowId, message)
     result(true)
   }
 
