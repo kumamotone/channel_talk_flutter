@@ -463,10 +463,9 @@ public class ChannelTalkFlutterPlugin implements FlutterPlugin, MethodCallHandle
       result.error("UNAVAILABLE", "Channel Talk is not booted", null);
     }
 
-    String openWorkflow = call.argument("supportBotId");
-    String message = call.argument("message");
+    String workflowId = call.argument("workflowId");
 
-    ChannelIO.openWorkflow(this.activity, openWorkflow, message);
+    ChannelIO.openWorkflow(this.activity, workflowId);
     result.success(true);
   }
 
