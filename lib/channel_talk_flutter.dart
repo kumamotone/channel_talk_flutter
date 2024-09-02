@@ -245,11 +245,11 @@ class ChannelTalk {
     return ChannelTalkFlutterPlatform.instance.removeTags(tags);
   }
 
-  static Future<bool?> openSupportBot({
+  static Future<bool?> openWorkflow({
     required String supportBotId,
     String? message,
   }) {
-    return ChannelTalkFlutterPlatform.instance.openSupportBot(
+    return ChannelTalkFlutterPlatform.instance.openWorkflow(
       supportBotId: supportBotId,
       message: message,
     );

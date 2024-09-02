@@ -644,9 +644,9 @@ It is valid when creating a new user. The language of the user that already exis
             <td>These are the tags to be removed. Null, empty strings, or lists containing them are not allowed.</td>
             <td>Mobile, Web</td>
         </tr>
-        <!-- openSupportBot -->
+        <!-- openWorkflow -->
         <tr>
-            <td rowspan=2>openSupportBot</td>
+            <td rowspan=2>openWorkflow</td>
             <td rowspan=2>Opens User chat to run a specific Support bot.</td>
             <td>supportBotId*</td>
             <td>String?</td>

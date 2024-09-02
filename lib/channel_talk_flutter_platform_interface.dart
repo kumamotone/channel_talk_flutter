@@ -157,11 +157,11 @@ abstract class ChannelTalkFlutterPlatform extends PlatformInterface {
     throw UnimplementedError('removeTags() has not been implemented.');
   }
 
-  Future<bool?> openSupportBot({
+  Future<bool?> openWorkflow({
     required String supportBotId,
     String? message,
   }) {
-    throw UnimplementedError('openSupportBot() has not been implemented.');
+    throw UnimplementedError('openWorkflow() has not been implemented.');
   }
 
   Future<bool?> setAppearance(Appearance appearance) {

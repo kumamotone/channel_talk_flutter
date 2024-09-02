@@ -881,11 +881,11 @@ class _MyAppState extends State<MyApp> {
 }
                             ''';
                   showInputDialog(
-                    'openSupportBot payload',
+                    'openWorkflow payload',
                     () async {
                       try {
                         Map args = json.decode(content);
-                        final result = await ChannelTalk.openSupportBot(
+                        final result = await ChannelTalk.openWorkflow(
                           supportBotId: args['supportBotId'],
                           message: args['message'],
                         );
@@ -899,7 +899,7 @@ class _MyAppState extends State<MyApp> {
                     },
                   );
                 },
-                child: const Text('openSupportBot'),
+                child: const Text('openWorkflow'),
               ),
             ],
           ),

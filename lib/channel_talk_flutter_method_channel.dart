@@ -210,11 +210,11 @@ class MethodChannelChannelTalkFlutter extends ChannelTalkFlutterPlatform {
   }
 
   @override
-  Future<bool?> openSupportBot({
+  Future<bool?> openWorkflow({
     required supportBotId,
     String? message,
   }) {
-    return methodChannel.invokeMethod('openSupportBot', {
+    return methodChannel.invokeMethod('openWorkflow', {
       'supportBotId': supportBotId,
       'message': message,
     });

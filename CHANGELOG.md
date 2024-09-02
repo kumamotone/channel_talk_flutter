@@ -3,7 +3,7 @@
 - Upgrade Android's ChannelIOSdk version from 11.6.1 to 11.6.2
 
 ## 3.1.2
-- fixed `openSupportBot` wrong parameter processing for Android
+- fixed `openWorkflow` wrong parameter processing for Android
 
 ## 3.1.1
 - added `customAttributes` on `updateUser` API
@@ -17,7 +17,7 @@
 - Changed to Federated plugins
 - Support Web(bootForWeb)
 - Changed `updateUser` API's parameters
-- Added `openSupportBot`, `setAppearance` API
+- Added `openWorkflow`, `setAppearance` API
 
 ## 2.6.2
 - Fixed iOS ChannelIOSdk version to 11.6.0

@@ -130,7 +130,7 @@ external void removeTags(
 );
 
 @JS('ChannelIO')
-external void openSupportBot(String command, String supportBotId,
+external void openWorkflow(String command, String supportBotId,
     [String? message]);
 
 @JS('ChannelIO')

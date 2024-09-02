@@ -195,12 +195,12 @@ class ChannelTalkFlutterWeb extends ChannelTalkFlutterPlatform {
   }
 
   @override
-  Future<bool?> openSupportBot({
+  Future<bool?> openWorkflow({
     required String supportBotId,
     String? message,
   }) {
-    channel_talk_service.openSupportBot(
-      'openSupportBot',
+    channel_talk_service.openWorkflow(
+      'openWorkflow',
       supportBotId,
       message,
     );
