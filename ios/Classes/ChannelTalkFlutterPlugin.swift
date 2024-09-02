@@ -185,10 +185,9 @@ public class ChannelTalkFlutterPlugin: NSObject, FlutterPlugin {
         return
     }
 
-    let chatId = argMaps["chatId"] as? String
-    let message = argMaps["message"] as? String
+    let workflowId = argMaps["workflowId"] as? String
 
-    ChannelIO.openChat(with: chatId, message: message)
+    ChannelIO.openChat(with: workflowId, message: message)
     result(true)
   }
 
@@ -393,10 +392,9 @@ public class ChannelTalkFlutterPlugin: NSObject, FlutterPlugin {
         return
     }
 
-    let supportBotId = argMaps["supportBotId"] as? String
-    let message = argMaps["message"] as? String
+    let workflowId = argMaps["workflowId"] as? String
 
-    ChannelIO.openWorkflow(with: supportBotId, message: message)
+    ChannelIO.openWorkflow(with: workflowId, message: message)
     result(true)
   }
 
